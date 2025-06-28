@@ -1,21 +1,21 @@
-# Veri Ön İşleme ve Hazırlık
+# Data Preprocessing and Preparation
 
-Bu Python projesi, makine öğrenmesi projeleri öncesinde gerekli olan temel veri ön işleme adımlarını içermektedir.
+This Python project includes the fundamental data preprocessing steps required before machine learning tasks.
+## Contents
 
-## İçerik
 
-- Eksik verilerin ortalama ile doldurulması (`SimpleImputer`)
-- Kategorik verilerin sayısallaştırılması (`OneHotEncoder`)
-- Verilerin eğitim/test olarak bölünmesi (`train_test_split`)
-- Özelliklerin ölçeklenmesi (`StandardScaler`)
+Filling missing values with the mean (SimpleImputer)
 
-## Gereksinimler
+Encoding categorical data (OneHotEncoder)
+
+Splitting data into training/test sets (train_test_split)
+
+Feature scaling (StandardScaler)
+
+## Requirements
 
 - numpy
 - pandas
 - scikit-learn
 
-## Çalıştırmak için
 
-```bash
-python ML.py
